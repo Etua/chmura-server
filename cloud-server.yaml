@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: cloud-server
-        image: ghcr.io/jjzajac/chmura-server:TAG
+        image: ghcr.io/etua/chmura-server:TAG
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
